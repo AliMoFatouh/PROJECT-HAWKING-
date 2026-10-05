@@ -5,8 +5,7 @@ Created a bare-metal Morse code interpreter developed on the STM32F446RE.
 The project is written in C and interacts directly with the STM32 peripherals through memory-mapped registers rather than using a hardware abstraction layer.
 
 <p align="center">
-  <img src="images/MORSE_TABLE.png" width="45%">
-  <img src="images/STM32_PHOTO.png" width="45%">
+  <img src="images/MORSE_TABLE.png" width="80%">
 </p>
 
 ## Project Goals

@@ -4,6 +4,11 @@ Created a bare-metal Morse code interpreter developed on the STM32F446RE.
 
 The project is written in C and interacts directly with the STM32 peripherals through memory-mapped registers rather than using a hardware abstraction layer.
 
+<p align="center">
+  <img src="images/MORSE_TABLE.png" width="45%">
+  <img src="images/STM32_PHOTO.png" width="45%">
+</p>
+
 ## Project Goals
 
 The goal of HAWKING is to build a complete embedded system while developing a deeper understanding of:
@@ -45,6 +50,10 @@ The goal of HAWKING is to build a complete embedded system while developing a de
 - ARM Cortex-M4
 - STM32CubeIDE
 - Register-level peripheral programming
+
+![HAWKING Python Interface](images/HAWKING_GUI.png)
+
+<video src="videos/ARM_MORSE_CODE.mp4" controls width="100%"></video>
 
   ## Python PC Interface
 

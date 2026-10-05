@@ -52,7 +52,7 @@ The goal of HAWKING is to build a complete embedded system while developing a de
 
 ![HAWKING Python Interface](images/HAWKING_GUI.png)
 
-<video src="videos/ARM_MORSE_CODE.mp4" controls width="100%"></video>
+[Watch the HAWKING Morse Code Demonstration](videos/ARM_MORSE_CODE.mp4)
 
   ## Python PC Interface
 

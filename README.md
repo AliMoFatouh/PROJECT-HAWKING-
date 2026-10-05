@@ -46,29 +46,7 @@ The goal of HAWKING is to build a complete embedded system while developing a de
 - STM32CubeIDE
 - Register-level peripheral programming
 
-## Project Structure
-
-```text
-HAWKING/
-├── Inc/
-│   ├── stm32f446xx.h
-│   ├── TIMx.h
-│   ├── GPIOAx.h
-│   ├── USART.h
-│   └── morse_decode.h
-│
-├── Src/
-│   ├── main.c
-│   ├── TIMx.c
-│   ├── GPIOAx.c
-│   ├── USART.c
-│   └── morse_decode.c
-│
-├── Startup/
-├── STM32F446RETX_FLASH.ld
-└── README.md
-
-## Python PC Interface
+  ## Python PC Interface
 
 HAWKING also includes a Python-based PC application that communicates with the STM32 over USART.
 
@@ -104,4 +82,30 @@ The Python side is intentionally kept separate from the firmware. The STM32 is r
     Serial Listener         Sound
           |                   |
     Process messages      Audio feedback
+```
+
+###Project Structure
+
+```text
+
+HAWKING/
+├── Inc/
+│   ├── stm32f446xx.h
+│   ├── TIMx.h
+│   ├── GPIOAx.h
+│   ├── USART.h
+│   └── morse_decode.h
+│
+├── Src/
+│   ├── main.c
+│   ├── TIMx.c
+│   ├── GPIOAx.c
+│   ├── USART.c
+│   └── morse_decode.c
+│
+├── Startup/
+├── STM32F446RETX_FLASH.ld
+└── README.md
+
+```
 

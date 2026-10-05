@@ -84,7 +84,7 @@ The Python side is intentionally kept separate from the firmware. The STM32 is r
     Process messages      Audio feedback
 ```
 
-###Project Structure
+### Project Structure
 
 ```text
 

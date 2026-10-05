@@ -68,3 +68,40 @@ HAWKING/
 ├── STM32F446RETX_FLASH.ld
 └── README.md
 
+## Python PC Interface
+
+HAWKING also includes a Python-based PC application that communicates with the STM32 over USART.
+
+The Python application acts as the host-side interface for the embedded system. It receives serial messages from the STM32 and provides feedback to the user, including decoded Morse characters and audio signals for Morse input events.
+
+The Python side is intentionally kept separate from the firmware. The STM32 is responsible for the embedded hardware, input handling, and timing, while the PC application handles higher-level user interaction.
+
+### Python Components
+
+- Serial communication with the STM32
+- Continuous serial data listening
+- Morse input feedback
+- Audio feedback for dots and dashes
+- Handling of control messages from the STM32
+- Separation of serial communication, sound generation, and application logic
+
+### Architecture
+
+```text
+                 HAWKING
+                    |
+              STM32F446RE
+                    |
+                 USART2
+                    |
+                   USB
+                    |
+                    v
+            Python Application
+                    |
+          +---------+---------+
+          |                   |
+    Serial Listener         Sound
+          |                   |
+    Process messages      Audio feedback
+

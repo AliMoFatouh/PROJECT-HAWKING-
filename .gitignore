@@ -1,0 +1,11 @@
+# Build output
+Debug/
+
+# Eclipse / STM32CubeIDE metadata
+.settings/
+
+# Temporary/editor files
+*.swp
+*.swo
+*~
+.DS_Store

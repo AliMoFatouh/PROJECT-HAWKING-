@@ -1,4 +1,7 @@
 # Project HAWKING
+_____
+The project is named **HAWKING** in reference to Stephen Hawking, reflecting the project's focus on communication, signals, and the interpretation of information!
+_____
 
 Created a bare-metal Morse code interpreter developed on the STM32F446RE.
 

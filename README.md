@@ -1,6 +1,6 @@
-# HAWKING
+# Project HAWKING
 
-HAWKING is a bare-metal Morse code interpreter developed on the STM32F446RE.
+Created a bare-metal Morse code interpreter developed on the STM32F446RE.
 
 The project is written in C and interacts directly with the STM32 peripherals through memory-mapped registers rather than using a hardware abstraction layer.
 
@@ -13,8 +13,8 @@ The goal of HAWKING is to build a complete embedded system while developing a de
 - GPIO
 - Timers
 - USART
-- I2C
-- LCD communication
+- I2C __in_development__
+- LCD communication __in_development__
 - Embedded C
 - Modular firmware architecture
 
